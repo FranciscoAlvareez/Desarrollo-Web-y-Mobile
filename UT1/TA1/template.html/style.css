@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#header{
+  width: 100%;
+  display:block;
+}
+#header h1{text-align: center;}
+#header ul{margin-left: 43.8vw;}
+#header ul li{
+  display: inline-flex;
+  margin: 0 4px;
+}
+#register{
+  display: block;
+  align-content: center;
+  margin: 2vh;
+}
+#register h3{
+  text-align: center;
+}
+#register form{
+  margin: 1vh 44vw;
+}
+#experiencia{
+  margin: 1vh 0;
+  text-align: center;
+}
+#experiencia label
+{
+  padding: 1vh 1vw;
+}
+#experiencia input{
+  margin: 0vh -0.5vw;
+}
+#footer {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  background-color: blueviolet;
+}
+#footer img{
+  width: 1vh;
+  height: 1vh;
+}
+#footer p{
+  margin: 2vw 15vw;
+  color: white;
+}
