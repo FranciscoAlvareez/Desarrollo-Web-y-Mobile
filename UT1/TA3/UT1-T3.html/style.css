@@ -1,0 +1,17 @@
+.parrafo {
+    text-align: center;
+    color: blueviolet;
+    font-size: 2vw;
+}
+.parrafo_medio{
+    font-size: 3vw;
+}
+#contenedor{
+    background-color: blue;
+    width: 100%;
+}
+#contenedor1{
+    background-color: brown;
+    width: 50%;
+    margin-left: 4vw;
+}
