@@ -1,0 +1,10 @@
+.div_main{
+    width: 40vw;
+    display: inline-flex;
+    justify-content: space-around;
+    height: 6vh;
+    margin-left: 30%;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.red{background-color: red;}
+.green{background-color: green;}
+.blue{background-color: blue;}
+button{
+    width: 10vw;
+    border-radius: 15px;
+    font-size: 2vh;
+    color: white;
+    border: none;
+}
