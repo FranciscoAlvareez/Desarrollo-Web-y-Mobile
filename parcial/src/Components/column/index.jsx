@@ -20,11 +20,11 @@ const ColumnaInfo = styled.p`
 
 
 const Columna = ({ id, propTitle, propDescription, players, categories }) => {
-  const [id, setId] = useState(id)
-  const [title, setTitle] = useState(propTitle)
-  const [description, setDescription] = useState(propDescription)
-  const [players, setPlayers] = useState(players)
-  const [categories, setCategories] = useState(categories)
+  const [Id, setId] = useState(id)
+  const [Title, setTitle] = useState(propTitle)
+  const [Description, setDescription] = useState(propDescription)
+  const [Players, setPlayers] = useState(players)
+  const [Categories, setCategories] = useState(categories)
 
   return (
     <>
