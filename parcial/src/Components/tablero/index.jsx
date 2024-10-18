@@ -1,6 +1,7 @@
 import React from 'react';
 import Columna from '../column/index';
 import LogicAnswer from '../logiButton';
+import styled from 'styled-components';
     
 const TableroContainer = styled.div`
   display: flex;
@@ -11,8 +12,9 @@ const ColumnaContainer = styled.div`
   width: 30%;
 `;
 
-const ColumnaTitle = styled.h1`
+const ColumnaTitle = styled.h3`
   margin-top: 0;
+  font-size: 18px;
 `;
 
 const Tablero = ({ deportes }) => {
